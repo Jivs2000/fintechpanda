@@ -432,8 +432,8 @@ else:
 
 # Business summary
             if 'longBusinessSummary' in info:
-                st.subheader("Business Summary")
-                st.write(info['longBusinessSummary'])
+        st.subheader("Business Summary")
+        st.write(info['longBusinessSummary'])
 
 def show_learning_center():
     """Display educational content"""
